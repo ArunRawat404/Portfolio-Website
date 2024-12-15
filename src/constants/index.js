@@ -79,7 +79,7 @@ export const myProjects = [
         desc: "A cutting-edge web portfolio showcasing dynamic 3D elements, including an immersive hacker-themed hero section and an interactive 3D globe pinpointing the user’s location. This portfolio features live project demos within a 3D computer model.",
         subdesc:
             "Built using React Three Fiber for efficient 3D rendering and GSAP for smooth animations, the website ensures a seamless, fully responsive browsing experience across all devices.",
-        live_href: 'https://arunrawat404.github.io/Portfolio-Website/',
+        live_href: 'https://portfolio-website-arunrawat.vercel.app/',
         github_href: 'https://github.com/ArunRawat404/Portfolio-Website',
         texture: '/textures/project/portfolio_demo.mp4',
         logo: '/assets/project-portfolio_logo.png',
