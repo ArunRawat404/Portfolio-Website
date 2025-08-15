@@ -49,7 +49,7 @@ const About = () => {
                         <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className="grid-headtext">Hello, I am Arun</p>
-                            <p className="grid-subtext">With 1+ year(s) of experience as a freelancer, I've worked across both backend and frontend development and am quick to adapt to new technologies</p>
+                            <p className="grid-subtext">With over a year of experience as a freelancer and through internships, I’ve worked on both backend and frontend development. I’m quick to learn, adapt to new technologies, and good at solving problems</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const About = () => {
                         <img src="/assets/mern.avif" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className="grid-headtext">Skills</p>
-                            <p className="grid-subtext">I work with Python and JavaScript, specializing in the MERN stack.
+                            <p className="grid-subtext">I work with Python and JavaScript, specializing in the backend with MERN stack.
                             </p>
                         </div>
                     </div>

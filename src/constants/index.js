@@ -79,7 +79,7 @@ export const myProjects = [
         desc: "A cutting-edge web portfolio showcasing dynamic 3D elements, including an immersive hacker-themed hero section and an interactive 3D globe pinpointing the user’s location. This portfolio features live project demos within a 3D computer model.",
         subdesc:
             "Built using React Three Fiber for efficient 3D rendering and GSAP for smooth animations, the website ensures a seamless, fully responsive browsing experience across all devices.",
-        live_href: 'https://portfolio-website-arunrawat.vercel.app/',
+        live_href: 'https://arunrawat.tech/',
         github_href: 'https://github.com/ArunRawat404/Portfolio-Website',
         texture: '/textures/project/portfolio_demo.mp4',
         logo: '/assets/project-portfolio_logo.png',
@@ -180,6 +180,41 @@ export const myProjects = [
             },
         ],
     },
+    {
+        title: "Crypto Wallet Browser Extension",
+        desc: "A browser-based crypto wallet built using React and Moralis APIs. This extension allows users to manage wallets, view token and NFT holdings, and perform native token transfers seamlessly.",
+        subdesc:
+            "Developed with React, Moralis APIs, and Web3.js, this wallet provides a simple yet secure interface for interacting with blockchain networks. Features include wallet connection, balance fetching, NFT display, and token transfers, packaged as a browser extension for quick access.",
+        live_href: 'https://github.com/ArunRawat404/crypto-wallet',
+        github_href: 'https://github.com/ArunRawat404/crypto-wallet',
+        texture: '/textures/project/crypto_wallet_demo.webm',
+        logo: '/assets/crypto_wallet_logo.jpg',
+        logoStyle: {
+            backgroundColor: '#60f5a1',
+            background:
+                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+            border: '0.2px solid rgba(208, 213, 221, 1)',
+            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        },
+        spotlight: '/assets/spotlight3.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'Nodejs',
+                path: '/assets/node.png',
+            },
+            {
+                id: 3,
+                name: 'Moralis',
+                path: 'assets/moralis_logo.jpeg',
+            },
+        ],
+    },
 ];
 
 export const clientReviews = [
@@ -220,19 +255,32 @@ export const clientReviews = [
 export const workExperiences = [
     {
         id: 1,
-        name: 'Freelancer',
-        pos: 'Junior Software Engineer',
-        duration: 'May 2024 - Present',
-        icon: '/assets/freelancer.png',
+        name: 'Aximox',
+        pos: 'Backend Developer',
+        duration: 'July 2025 - August 2025',
+        icon: '/assets/aximox.jpeg',
         points: [
-            "Configured a RYOD blockchain node and integrated it with the Mining pool and Dockerized the project, enabling one-command node setup and reducing setup time by 90%.",
-            "Developed a Python-based automation script using OCR and AutoHotkey for Metin2; enhanced gameplay performance and streamlined repetitive tasks, saving 5 hours of manual effort weekly.",
-            "Employed Selenium with Python and proxy settings to automate the redemption process for Microsoft Xbox Game Pass and saved 5 hours of manual work.",
+            "Architected backend using Nest.js, TypeScript, Neon Postgres; built fully protected REST APIs documented via Swagger UI, secured with Clerk JWT for HTTP and web socket connections.",
+            "Built real-time chat using socket.io for a prompt-to-code SaaS, load tested to handle 600 concurrent users, 51 msg/sec, p95 under 0.4s, and 0% connection failures using Artillery load testing.",
+            "Integrated Inngest-powered AI agents with Gemini, Claude, and OpenAI, and utilized E2B sandboxes for secure code execution, enabling scalable and resilient code-generation workflows.",
         ],
         animation: 'victory',
     },
     {
         id: 2,
+        name: 'Freelancer',
+        pos: 'Junior Software Engineer',
+        duration: 'May 2024 - Present',
+        icon: '/assets/freelancer.png',
+        points: [
+            "Configured and Dockerized a RYOD blockchain node, integrating it with a mining pool for one-command deployment, reducing setup time by 90%.",
+            "Automated gameplay tasks in Metin2 using Python, OCR, and AutoHotkey, improving performance and saving 10 hours/week of manual effort.",
+            "Automated Microsoft Xbox Game Pass redemptions with Selenium and proxy rotation, eliminating 4 hours/week of manual work.",
+        ],
+        animation: 'victory',
+    },
+    {
+        id: 3,
         name: 'Fabstir',
         pos: 'Frontend Developer Intern',
         duration: 'June 2022 - August 2022',
